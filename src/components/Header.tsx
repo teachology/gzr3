@@ -1,22 +1,37 @@
 import React, { useState } from 'react';
-import { Menu, X, BookOpen, Calculator, Phone } from 'lucide-react';
+import { Menu, X, BookOpen, Calculator, Phone, Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isAccountsOpen, setIsAccountsOpen] = useState(false);
 
   return (
     <header className="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white shadow-lg">
       {/* Top Bar */}
-      <div className="bg-emerald-800 py-2">
+      <div className="bg-emerald-800 py-2 relative">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center gap-4">
-              <span>التسجيل</span>
+              <a href="https://gzr3.com/online/login/signup.php" className="hover:text-emerald-300">التسجيل</a>
               <span>|</span>
-              <span>تسجيل دخول</span>
+              <a href="https://gzr3.com/online/login/index.php" className="hover:text-emerald-300">تسجيل دخول</a>
             </div>
-            <div className="text-right">
-              <span>حسابات المعاصر</span>
+            <div className="relative text-right">
+              <button
+                onClick={() => setIsAccountsOpen(!isAccountsOpen)}
+                className="hover:text-emerald-300"
+              >
+                حسابات المعاصر
+              </button>
+              {isAccountsOpen && (
+                <div className="absolute right-0 mt-2 bg-white text-emerald-800 shadow-lg rounded-lg z-50">
+                  <ul className="text-sm w-48">
+                    <li><a href="https://facebook.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Facebook size={16} />فيسبوك</a></li>
+                    <li><a href="https://instagram.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Instagram size={16} />انستجرام</a></li>
+                    <li><a href="https://youtube.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Youtube size={16} />يوتيوب</a></li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>
