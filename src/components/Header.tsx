@@ -59,8 +59,8 @@ const Header = () => {
 
             </div>
             <div className="text-right">
-              <h1 className="text-xl font-bold text-black text-right">100% قدرات وتحصيلي</h1>
-              <p className="text-balck-100 font-bold text-black text-2xl text-center">مع أشرف شعبان</p>
+              <h1 className="text-l font-bold text-black text-right">100% قدرات وتحصيلي</h1>
+              <p className="text-balck-100 font-bold text-black text-xl text-center">مع أشرف شعبان</p>
             </div>
           </div>
 
