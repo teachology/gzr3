@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Custom Arabic Font Styles */
 
 /* RTL Support */
 html[dir="rtl"] {
   direction: rtl;
 }
 
-/* Custom Arabic Font Styles */
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
 
 body {
   font-family: 'Tajawal', sans-serif;

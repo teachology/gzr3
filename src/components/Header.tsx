@@ -7,7 +7,7 @@ const Header = () => {
   const [isAccountsOpen, setIsAccountsOpen] = useState(false);
 
   return (
-    <header className="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white shadow-lg">
+    <header className="bg-gradient-to-r from-white-600 to-white-700 text-white">
       {/* Top Bar */}
       <div className="bg-emerald-800 py-2 relative">
         <div className="container mx-auto px-4">
@@ -22,7 +22,7 @@ const Header = () => {
                 onClick={() => setIsAccountsOpen(!isAccountsOpen)}
                 className="hover:text-emerald-300"
               >
-                حسابات المعاصر
+               حسابات جذر ثلاثة
               </button>
               {isAccountsOpen && (
                 <div className="absolute right-0 mt-2 bg-white text-emerald-800 shadow-lg rounded-lg z-50">
@@ -44,37 +44,37 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-lg hover:bg-emerald-600 transition-colors"
+            className="lg:hidden p-2 rounded-lg bg-gray-200 text-gray-800 hover:bg-emerald-600 hover:text-white transition-colors"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="bg-white text-emerald-600 p-3 rounded-xl shadow-lg">
+            <div className="bg-white text-emerald-600 p-3">
               <div className="flex items-center gap-3">
-                <img src={logo} alt="جذر 3 Logo" className="w-12 h-12 rounded-xl shadow-lg" />
+                <img src={logo} alt="جذر ثلاثة Logo" className="w-16 h-16 rounded-xl" />
               </div>
 
 
             </div>
             <div className="text-right">
-              <h1 className="text-2xl font-bold text-white text-right">جذر 3</h1>
-              <p className="text-emerald-100 text-sm text-right">100% قدرات وتحصيلي مع أشرف شعبان</p>
+              <h1 className="text-xl font-bold text-black text-right">100% قدرات وتحصيلي</h1>
+              <p className="text-balck-100 font-bold text-black text-2xl text-center">مع أشرف شعبان</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
-            <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
+            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
               <BookOpen size={18} />
               الدورات
             </a>
-            <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
+            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
               <Calculator size={18} />
               القدرات
             </a>
-            <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
+            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
               <Phone size={18} />
               التواصل
             </a>
@@ -89,17 +89,17 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden mt-4 p-4 bg-emerald-600 rounded-lg">
+          <div className="lg:hidden mt-4 p-4 bg-gray-100 rounded-lg text-gray-800 shadow-md border border-gray-200">
             <nav className="flex flex-col gap-3">
-              <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
+              <a href="#" className="text-gray-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2 text-right">
                 <BookOpen size={18} />
                 الدورات
               </a>
-              <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
+              <a href="#" className="text-gray-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2 text-right">
                 <Calculator size={18} />
                 القدرات
               </a>
-              <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
+              <a href="#" className="text-gray-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2 text-right">
                 <Phone size={18} />
                 التواصل
               </a>

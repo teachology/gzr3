@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Phone, Mail, MapPin, Calculator } from 'lucide-react';
+import logo from "../images/logo.jpg";
 
 const Footer = () => {
   return (
@@ -9,14 +10,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="bg-emerald-600 text-white p-3 rounded-xl">
-                <div className="flex items-center gap-1 font-bold text-xl">
-                  <span className="text-2xl">√</span>
-                  <span>3</span>
-                </div>
+              <div className="flex items-center gap-3">
+               <img src={logo} alt="جذر ثلاثة Logo" className="w-16 h-16 rounded-xl" />
               </div>
               <div className="text-right">
-                <h3 className="text-2xl font-bold text-right">جذر 3</h3>
+                <h3 className="text-2xl font-bold text-right">جذر ثلاثة</h3>
                 <p className="text-gray-400 text-right">منصة تعليمية متخصصة</p>
               </div>
             </div>
@@ -69,7 +67,7 @@ const Footer = () => {
               <li className="flex items-start gap-3 justify-end text-right">
                 <div className="text-right">
                   <p className="text-gray-300 text-right">واتساب</p>
-                  <p className="text-white font-semibold text-right">+966565435360</p>
+                  <p className="text-white font-semibold text-right">966565435360+</p>
                 </div>
                 <Phone className="w-5 h-5 text-emerald-400 mt-1 flex-shrink-0" />
               </li>
@@ -95,7 +93,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-center md:text-right">
-              © 2025 جذر 3 - جميع الحقوق محفوظة
+              © 2025 جذر ثلاثة - جميع الحقوق محفوظة
             </p>
             <p className="text-gray-400 text-center md:text-right">
               مع الأستاذ أشرف شعبان - مدرس القدرات والتحصيلي
