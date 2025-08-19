@@ -31,9 +31,9 @@ const Header = () => {
               {isAccountsOpen && (
                 <div className="absolute right-0 mt-2 bg-white text-emerald-800 shadow-lg rounded-lg z-50">
                   <ul className="text-sm w-48">
-                    <li><a href="https://t.me/minabebawy" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><MessageCircleWarning size={16} />تليجرام</a></li>
-                    <li><a href="https://youtube.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Youtube size={16} />يوتيوب</a></li>
-                    <li><a href="https://instagram.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Instagram size={16} />انستجرام</a></li>
+                    <li><a href="https://t.me/gzr3sanad" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><MessageCircleWarning size={16} />تليجرام</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCoYyvX1H4lVjK9woNQTE5hA" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Youtube size={16} />يوتيوب</a></li>
+                    <li><a href="https://www.instagram.com/ashraf_shaban1" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Instagram size={16} />انستجرام</a></li>
                   </ul>
                 </div>
               )}

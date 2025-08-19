@@ -4,30 +4,30 @@ import { Facebook, Youtube, MessageCircle, Send } from 'lucide-react';
 const SocialLinks = () => {
   const socialLinks = [
     {
-      name: 'Facebook',
-      icon: Facebook,
-      url: '#',
-      color: 'bg-blue-600 hover:bg-blue-700',
-      description: 'تابعنا على فيسبوك'
+      name: 'Instagram',
+      icon: MessageCircle,
+      url: 'https://www.instagram.com/ashraf_shaban1',
+      color: 'bg-pink-600 hover:bg-blue-700',
+      description: 'تابعنا على انستجرام'
     },
     {
       name: 'YouTube',
       icon: Youtube,
-      url: '#',
+      url: 'https://www.youtube.com/channel/UCoYyvX1H4lVjK9woNQTE5hA',
       color: 'bg-red-600 hover:bg-red-700',
       description: 'قناتنا على يوتيوب'
     },
     {
       name: 'TikTok',
       icon: MessageCircle, // Using MessageCircle as TikTok icon substitute
-      url: '#',
+      url: 'https://www.tiktok.com/@shefaamr',
       color: 'bg-black hover:bg-gray-800',
       description: 'تيك توك'
     },
     {
       name: 'Telegram',
       icon: Send,
-      url: '#',
+      url: 'https://t.me/gzr3sanad',
       color: 'bg-blue-500 hover:bg-blue-600',
       description: 'قناة تليجرام'
     }

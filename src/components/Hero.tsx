@@ -117,6 +117,22 @@ const Hero = () => {
             </p>
           </div>
       </div>
+
+      <div className="container mx-auto px-4 my-8">
+  <h2 className="text-2xl font-bold mb-4 text-center">شاهد مثال من الشرح</h2>
+  
+      <div className="relative" style={{ paddingTop: '56.25%' }}>
+        <iframe
+          src="https://www.youtube.com/embed/BtmFW95alBs"
+          title="Sample Explanation Video"
+          className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+
     </div>
 
     </section>
