@@ -22,11 +22,7 @@ const Header = () => {
                 onClick={() => setIsAccountsOpen(!isAccountsOpen)}
                 className="hover:text-emerald-300"
               >
-<<<<<<< HEAD
-                حسابات جزر ثلاثة
-=======
                حسابات جذر ثلاثة
->>>>>>> 14e2889083b1b5fc4375f78a6bceeed245f76bff
               </button>
               {isAccountsOpen && (
                 <div className="absolute right-0 mt-2 bg-white text-emerald-800 shadow-lg rounded-lg z-50">
@@ -63,36 +59,19 @@ const Header = () => {
 
             </div>
             <div className="text-right">
-<<<<<<< HEAD
               <h1 className="text-sm font-bold text-white text-right">100% قدرات وتحصيلي</h1>
               <p className="text-emerald-100 text-xl font-bold text-center">مع أشرف شعبان</p>
-=======
-              <h1 className="text-l font-bold text-black text-right">100% قدرات وتحصيلي</h1>
-              <p className="text-balck-100 font-bold text-black text-xl text-center">مع أشرف شعبان</p>
->>>>>>> 14e2889083b1b5fc4375f78a6bceeed245f76bff
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
-<<<<<<< HEAD
             <a href="https://gzr3.com/online/"  target="_blank" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
               <BookOpen size={18} />
               الدورات
             </a>
 
             <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
-=======
-            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
-              <BookOpen size={18} />
-              الدورات
-            </a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
-              <Calculator size={18} />
-              القدرات
-            </a>
-            <a href="#" className="text-gray-800 hover:text-blue-600 transition-colors flex items-center gap-2 text-right">
->>>>>>> 14e2889083b1b5fc4375f78a6bceeed245f76bff
               <Phone size={18} />
               التواصل
             </a>
@@ -109,11 +88,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden mt-4 p-4 bg-gray-100 rounded-lg text-gray-800 shadow-md border border-gray-200">
             <nav className="flex flex-col gap-3">
-<<<<<<< HEAD
               <a href="https://gzr3.com/online/"  target="_blank" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
-=======
-              <a href="#" className="text-gray-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2 text-right">
->>>>>>> 14e2889083b1b5fc4375f78a6bceeed245f76bff
                 <BookOpen size={18} />
                 الدورات
               </a>
