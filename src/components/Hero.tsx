@@ -27,7 +27,7 @@ const Hero = () => {
               ابدأ الان
             </a>
             <a
-              href="/SocialLinks#whatsapp-cta"
+              href="/#whatsapp-cta"
               className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 text-lg rounded-xl shadow-lg transition"
             >
               اعرف المزيد
