@@ -79,7 +79,7 @@ const Hero = () => {
 
             {/* Optional description below the thumbnail */}
             <p className="text-purple-100 text-center sm:text-right leading-relaxed">
-              هذا الكورس يضعك على الطريق الصحيح لفهم أساسيات القدرات والتحصيلي.
+              هذا الكورس يضعك على الطريق الصحيح لفهم أساسيات القدرات.
             </p>
           </div>
 
@@ -113,7 +113,7 @@ const Hero = () => {
 
             {/* Optional description below the thumbnail */}
             <p className="text-purple-100 text-center sm:text-right leading-relaxed">
-              هذا الكورس يضعك على الطريق الصحيح لفهم أساسيات القدرات والتحصيلي.
+              هذا الكورس هو خطوتك الأولى نحو التدريب الذكي لتحقيق نتائج مميزة.
             </p>
           </div>
       </div>

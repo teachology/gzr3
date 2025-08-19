@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, BookOpen, Calculator, Phone, Instagram, Youtube, MessageCircleWarning } from 'lucide-react';
-import logo from '../images/logo.jpg';
+import logo from '/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
