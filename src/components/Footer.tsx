@@ -10,13 +10,8 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-<<<<<<< HEAD
               <div className=" text-white p-3 rounded-xl inline-flex items-center gap-1">
                 <img src="/logo.png" alt="Logo" className="w-14 h-14" />
-=======
-              <div className="flex items-center gap-3">
-               <img src={logo} alt="جذر ثلاثة Logo" className="w-16 h-16 rounded-xl" />
->>>>>>> 14e2889083b1b5fc4375f78a6bceeed245f76bff
               </div>
 
               <div className="text-right">
