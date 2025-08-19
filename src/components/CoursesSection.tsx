@@ -2,7 +2,8 @@ import React from 'react';
 import { BookOpen, Clock, Users, Trophy, CheckCircle } from 'lucide-react';
 
 const CoursesSection = () => {
-  const courses = [
+  // const courses = [
+   /*
     {
       title: 'بث مباشر تأسيس من جديد - بنوك المحوسب نسج لحدق',
       description: 'بث مباشر يبدأ في 2/8/2025 الدورتين معاً بـ 300 ريال',
@@ -108,7 +109,7 @@ const CoursesSection = () => {
           })}
         </div>
 
-        {/* Special Offer */}
+        /*{/* Special Offer *\/}
         <div className="mt-12 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-2xl p-8 text-right">
           <h3 className="text-2xl font-bold mb-4 text-right">عرض خاص محدود!</h3>
           <p className="text-lg mb-6 text-right">
@@ -122,7 +123,10 @@ const CoursesSection = () => {
         </div>
       </div>
     </section>
+    
   );
+  */
+ return null;
 };
 
 export default CoursesSection;

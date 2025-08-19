@@ -9,14 +9,12 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="bg-emerald-600 text-white p-3 rounded-xl">
-                <div className="flex items-center gap-1 font-bold text-xl">
-                  <span className="text-2xl">√</span>
-                  <span>3</span>
-                </div>
+              <div className=" text-white p-3 rounded-xl inline-flex items-center gap-1">
+                <img src="/logo.png" alt="Logo" className="w-14 h-14" />
               </div>
+
               <div className="text-right">
-                <h3 className="text-2xl font-bold text-right">جذر 3</h3>
+                <h3 className="text-2xl font-bold text-right">جذر ثلاثة</h3>
                 <p className="text-gray-400 text-right">منصة تعليمية متخصصة</p>
               </div>
             </div>
@@ -36,7 +34,7 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-6 text-right">روابط سريعة</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
+                <a href="https://gzr3.com/online/"  target="_blank" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
                   الدورات المتاحة
                   <BookOpen className="w-4 h-4" />
                 </a>
@@ -48,7 +46,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://gzr3.com/online" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
+                <a href="https://gzr3.com/online"  target="_blank" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
                   منصة التعلم
                   <BookOpen className="w-4 h-4" />
                 </a>
@@ -95,7 +93,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-center md:text-right">
-              © 2025 جذر 3 - جميع الحقوق محفوظة
+              © 2025 جذر ثلاثة - جميع الحقوق محفوظة
             </p>
             <p className="text-gray-400 text-center md:text-right">
               مع الأستاذ أشرف شعبان - مدرس القدرات والتحصيلي

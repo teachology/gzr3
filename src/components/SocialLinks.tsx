@@ -63,7 +63,7 @@ const SocialLinks = () => {
         </div>
 
         {/* WhatsApp CTA */}
-        <div className="mt-12 text-center">
+        <div id="whatsapp-cta" className="mt-12 text-center">
           <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-8 rounded-2xl max-w-2xl mx-auto text-right">
             <MessageCircle className="w-16 h-16 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4 text-right">تحتاج مساعدة؟</h3>
@@ -75,7 +75,7 @@ const SocialLinks = () => {
               className="inline-flex items-center gap-3 bg-white text-green-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors duration-300"
             >
               <MessageCircle className="w-6 h-6" />
-              +966565435360
+              966565435360+
             </a>
           </div>
         </div>

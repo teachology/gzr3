@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Star, Clock, Users } from 'lucide-react';
+import SocialLinks from "./components/SocialLinks";
 
 const Hero = () => {
   return (
@@ -9,93 +10,115 @@ const Hero = () => {
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-yellow-400 to-transparent opacity-10 rounded-full transform translate-x-48 -translate-y-48"></div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-right mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-right">
-            دورات البث المباشر
+  {/* Hero Section */}
+      <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-center">
+        {/* Text & Buttons */}
+        <div className="mb-6 md:mb-0 md:w-2/3">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-white">
+            جذر ثلاثة في القدرات طريقك للتفوق والنجاح
           </h2>
-          <p className="text-xl text-purple-100 mb-8 max-w-3xl mx-auto leading-relaxed text-right">
-            استعد لاختبارات القدرات والتحصيلي مع أشرف شعبان - مدرس القدرات والتحصيلي في المملكة العربية السعودية
-          </p>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-6">
+            <a
+              href="https://gzr3.com/online/login/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 text-lg rounded-xl shadow-lg transition"
+            >
+              ابدأ الان
+            </a>
+            <a
+              href="/SocialLinks#whatsapp-cta"
+              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 text-lg rounded-xl shadow-lg transition"
+            >
+              اعرف المزيد
+            </a>
+          </div>
+
         </div>
 
-        {/* Course Cards */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Step 1 */}
-          <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-20 hover:bg-opacity-15 transition-all duration-300">
-            <div className="flex items-center justify-between mb-6">
-              <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full font-bold">
-                STEP 01
-              </div>
-              <div className="text-right">
-                <span className="text-2xl font-bold">تأسيس</span>
-                <p className="text-purple-200 text-right">من الصفر</p>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-bold mb-4 text-right">
-              بناء على النظام الجديد
-            </h3>
-            
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="bg-purple-600 bg-opacity-50 p-4 rounded-lg text-right">
-                <div className="text-2xl font-bold text-yellow-400 text-right">15</div>
-                <div className="text-sm text-right">تبدأ الدورة في أكتوبر 2025</div>
-              </div>
-              <div className="bg-purple-600 bg-opacity-50 p-4 rounded-lg text-right">
-                <div className="text-2xl font-bold text-yellow-400 text-right">﷼250</div>
-                <div className="text-sm text-right">السعر</div>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <span className="bg-red-500 text-white px-4 py-2 rounded-full text-sm font-bold">
-                سيتم فتح
-              </span>
-            </div>
-          </div>
-
-          {/* Step 2 */}
-          <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-20 hover:bg-opacity-15 transition-all duration-300">
-            <div className="flex items-center justify-between mb-6">
-              <div className="bg-gradient-to-r from-teal-500 to-teal-600 text-white px-4 py-2 rounded-full font-bold">
-                STEP 02
-              </div>
-              <div className="text-right">
-                <span className="text-2xl font-bold">بنوك المطويب</span>
-                <p className="text-purple-200 text-right">شيخ ألمع</p>
-              </div>
-            </div>
-            
-            <h3 className="text-2xl font-bold mb-4 text-right">
-              دورة ستتغير هديتك مجاني
-            </h3>
-            
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="bg-teal-600 bg-opacity-50 p-4 rounded-lg text-right">
-                <div className="text-2xl font-bold text-yellow-400 text-right">02</div>
-                <div className="text-sm text-right">تبدأ الدورة في أكتوبر 2025</div>
-              </div>
-              <div className="bg-teal-600 bg-opacity-50 p-4 rounded-lg text-right">
-                <div className="text-2xl font-bold text-yellow-400 text-right">﷼200</div>
-                <div className="text-sm text-right">السعر</div>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <span className="bg-teal-500 text-white px-4 py-2 rounded-full text-sm font-bold">
-                احجز الآن
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA Button */}
-        <div className="text-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-full inline-block mb-4">
-            <span className="font-bold text-lg text-right">احصل على الدورتين بسعر ﷼ 300 بدلاً من ﷼ 450</span>
-          </div>
+        {/* Image */}
+        <div className="md:w-1/3 flex justify-center md:justify-end">
+          <img
+            src="/logo.png"
+            alt="جذر ثلاثة"
+            className="w-24 sm:w-32 md:w-40"
+          />
         </div>
       </div>
+
+      <br />
+
+      {/* Course Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        {/* Step 1 */}
+          <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 hover:bg-opacity-15 transition-all duration-300">
+            <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
+              <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full font-bold">
+                الخطوة الاولي
+              </div>
+              <div className="text-center sm:text-right">
+                <span className="text-xl sm:text-2xl font-bold">تأسيس</span>
+                <p className="text-purple-200">من الصفر</p>
+              </div>
+            </div>
+
+            {/* Thumbnail Section */}
+              <a 
+                href="https://gzr3.com/online/course/view.php?id=2" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <div className="w-full h-48 sm:h-96 rounded-xl overflow-hidden shadow-lg mb-4">
+                  <img
+                    src="/step01.png" // replace with your course image path
+                    alt="Course Thumbnail"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </a>
+
+            {/* Optional description below the thumbnail */}
+            <p className="text-purple-100 text-center sm:text-right leading-relaxed">
+              هذا الكورس يضعك على الطريق الصحيح لفهم أساسيات القدرات والتحصيلي.
+            </p>
+          </div>
+
+
+        {/* Step 2 */}
+          <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 hover:bg-opacity-15 transition-all duration-300">
+            <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
+              <div className="bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full font-bold">
+                الخطوة الثانية
+              </div>
+              <div className="text-center sm:text-right">
+                <span className="text-xl sm:text-2xl font-bold">المحوسب</span>
+                <p className="text-purple-200">من الصفر</p>
+              </div>
+            </div>
+
+            {/* Thumbnail Section */}
+              <a 
+                href="https://gzr3.com/online/course/view.php?id=2" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <div className="w-full h-48 sm:h-96 rounded-xl overflow-hidden shadow-lg mb-4">
+                  <img
+                    src="/step02.png" // replace with your course image path
+                    alt="Course Thumbnail"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </a>
+
+            {/* Optional description below the thumbnail */}
+            <p className="text-purple-100 text-center sm:text-right leading-relaxed">
+              هذا الكورس يضعك على الطريق الصحيح لفهم أساسيات القدرات والتحصيلي.
+            </p>
+          </div>
+      </div>
+    </div>
+
     </section>
   );
 };

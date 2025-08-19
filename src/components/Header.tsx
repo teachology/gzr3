@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, BookOpen, Calculator, Phone, Facebook, Instagram, Youtube } from 'lucide-react';
+import { Menu, X, BookOpen, Calculator, Phone, Instagram, Youtube, MessageCircleWarning, Facebook } from 'lucide-react';
 import logo from '../images/logo.jpg';
 
 const Header = () => {
@@ -13,23 +13,23 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center gap-4">
-              <a href="https://gzr3.com/online/login/signup.php" className="hover:text-emerald-300">التسجيل</a>
+              <a href="https://gzr3.com/online/login/signup.php" target="_blank" className="hover:text-emerald-300">التسجيل</a>
               <span>|</span>
-              <a href="https://gzr3.com/online/login/index.php" className="hover:text-emerald-300">تسجيل دخول</a>
+              <a href="https://gzr3.com/online/login/index.php" target="_blank" className="hover:text-emerald-300">تسجيل دخول</a>
             </div>
             <div className="relative text-right">
               <button
                 onClick={() => setIsAccountsOpen(!isAccountsOpen)}
                 className="hover:text-emerald-300"
               >
-                حسابات المعاصر
+                حسابات جزر ثلاثة
               </button>
               {isAccountsOpen && (
                 <div className="absolute right-0 mt-2 bg-white text-emerald-800 shadow-lg rounded-lg z-50">
                   <ul className="text-sm w-48">
-                    <li><a href="https://facebook.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Facebook size={16} />فيسبوك</a></li>
-                    <li><a href="https://instagram.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Instagram size={16} />انستجرام</a></li>
+                    <li><a href="https://t.me/minabebawy" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><MessageCircleWarning size={16} />تليجرام</a></li>
                     <li><a href="https://youtube.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Youtube size={16} />يوتيوب</a></li>
+                    <li><a href="https://instagram.com" target="_blank" className="block px-4 py-2 hover:bg-emerald-100 flex items-center gap-2"><Instagram size={16} />انستجرام</a></li>
                   </ul>
                 </div>
               )}
@@ -59,21 +59,18 @@ const Header = () => {
 
             </div>
             <div className="text-right">
-              <h1 className="text-2xl font-bold text-white text-right">جذر 3</h1>
-              <p className="text-emerald-100 text-sm text-right">100% قدرات وتحصيلي مع أشرف شعبان</p>
+              <h1 className="text-sm font-bold text-white text-right">100% قدرات وتحصيلي</h1>
+              <p className="text-emerald-100 text-xl font-bold text-center">مع أشرف شعبان</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
-            <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
+            <a href="https://gzr3.com/online/"  target="_blank" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
               <BookOpen size={18} />
               الدورات
             </a>
-            <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
-              <Calculator size={18} />
-              القدرات
-            </a>
+
             <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 text-right">
               <Phone size={18} />
               التواصل
@@ -91,7 +88,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden mt-4 p-4 bg-emerald-600 rounded-lg">
             <nav className="flex flex-col gap-3">
-              <a href="#" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
+              <a href="https://gzr3.com/online/"  target="_blank" className="hover:text-emerald-200 transition-colors flex items-center gap-2 py-2 text-right">
                 <BookOpen size={18} />
                 الدورات
               </a>
