@@ -69,7 +69,7 @@ const SocialLinks = () => {
             <h3 className="text-2xl font-bold mb-4 text-right">تحتاج مساعدة؟</h3>
             <p className="text-lg mb-6 text-right">تواصل معنا مباشرة عبر واتساب للاستفسار عن الدورات والتسجيل</p>
             <a
-              href={`https://wa.me/966565435360?text=مرحباً، أريد الاستفسار عن دورات جذر 3`}
+              href={`https://wa.me/966565435360?text=مرحباً، أريد الاستفسار عن دورات جذر ثلاثة`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-white text-green-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors duration-300"
