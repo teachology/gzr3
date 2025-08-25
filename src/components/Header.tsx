@@ -133,13 +133,7 @@ const Header = () => {
               <BookOpen size={18} />
               الدورات
             </a>
-            <a
-              href="#"
-              className="text-emerald-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2"
-            >
-              <Calculator size={18} />
-              القدرات
-            </a>
+
             <a
               href="https://gzr3.com/#whatsapp-cta"
               className="text-emerald-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2"
