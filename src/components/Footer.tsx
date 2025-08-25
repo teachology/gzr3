@@ -41,7 +41,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
+                <a href="https://gzr3.com/online" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
                   اختبارات القدرات
                   <Calculator className="w-4 h-4" />
                 </a>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
+                <a href="https://gzr3.com/#whatsapp-cta" className="text-gray-300 hover:text-emerald-400 transition-colors flex items-center gap-2 justify-end text-right">
                   تواصل معنا
                   <Phone className="w-4 h-4" />
                 </a>

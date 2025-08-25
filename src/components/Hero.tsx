@@ -121,11 +121,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 my-8">
   <h2 className="text-2xl font-bold mb-4 text-center">شاهد مثال من الشرح</h2>
   
-      <div className="relative w-1/2 mx-auto" style={{ paddingTop: '28.125%' }}>
+      <div className="relative w-full sm:w-4/5 md:w-2/3 lg:w-1/2 mx-auto" style={{ paddingTop: '56.25%' }}>
         <iframe
           src="https://player.vimeo.com/video/1109495836"
           title="Sample Explanation Video"
-          className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg border-0"
+          className="absolute top-0 left-0 w-full h-1/2 rounded-lg shadow-lg border-0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>

@@ -105,7 +105,7 @@ const Header = () => {
           </a>
 
           <a
-            href="#"
+            href="https://gzr3.com/#whatsapp-cta"
             className="hover:text-emerald-200 transition-colors flex items-center gap-2"
           >
             <Phone size={18} />
@@ -141,7 +141,7 @@ const Header = () => {
               القدرات
             </a>
             <a
-              href="#"
+              href="https://gzr3.com/#whatsapp-cta"
               className="text-emerald-800 hover:text-emerald-600 transition-colors flex items-center gap-2 py-2"
             >
               <Phone size={18} />
